@@ -1,0 +1,18 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "vite react nestjs ssr",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "pnpm --filter \"nest-server\" start:dev"
+  },
+  "keywords": [
+    "vite",
+    "react",
+    "nestjs",
+    "ssr"
+  ],
+  "author": "jianjiacheng",
+  "license": "ISC"
+}
