@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "pnpm --filter \"nest-server\" start:dev"
+    "server": "pnpm --filter \"nest-server\" start:dev",
+    "editor": "pnpm --filter \"vite-react\" dev",
+    "lint": "eslint projects/*/src/**"
   },
   "keywords": [
     "vite",
@@ -14,5 +16,17 @@
     "ssr"
   ],
   "author": "jianjiacheng",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "prettier": "^2.3.2",
+    "typescript": "^4.6.2",
+    "vite": "^2.8.6"
+  }
 }
